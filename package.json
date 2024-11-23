@@ -10,10 +10,13 @@
     "lint": "npm run lint:format && npm run lint:fix "
   },
   "dependencies": {
+    "antd": "^5.22.2",
     "cross-spawn": "^7.0.6",
+    "i": "^0.3.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "shelljs": "^0.8.5"
+    "shelljs": "^0.8.5",
+    "styled-components": "^6.1.13"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
@@ -31,7 +34,7 @@
     "eslint-plugin-react-refresh": "^0.4.14",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "globals": "^15.11.0",
-    "pre-commit": "^1.2.2",
+    "pre-commit": "^1.0.10",
     "prettier": "^3.3.3",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.11.0",
