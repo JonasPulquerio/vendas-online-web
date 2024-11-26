@@ -1,11 +1,27 @@
-import { BackgroundImage } from "../styles/loginScreen.styles";
+import Input from '../../../shared/input/input/input'
+import {
+    BackgroundImage,
+    ContainerLogin,
+    ContainerLoginScreen,
+    LimitedCointainer,
+    LogoImage
+}   from "../styles/loginScreen.styles";
+
 
 const LoginScreen = () => {
     
     return (
         <div>
-            <BackgroundImage src="./background.png" />
-
+            <ContainerLoginScreen>
+                <ContainerLogin>
+                    <LimitedCointainer>
+                        <LogoImage src="" />
+                        <Input title="USUÁRIO" />
+                        <Input title="SENHA" />
+                    </LimitedCointainer>
+                </ContainerLogin>
+                <BackgroundImage src="./background.png" />
+            </ContainerLoginScreen>
         </div>
     );
 };
